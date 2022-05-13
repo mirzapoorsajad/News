@@ -31,6 +31,11 @@ namespace sajjadmirzapour
 
 
 
+        public DbSet<sajjadmirzapour.Models.Banner> Banner { get; set; }
+
+
+
+
 
     }
 }
