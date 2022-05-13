@@ -5,7 +5,7 @@ namespace sajjadmirzapour.Models
     public class ShortTextNews
     {
         [Key]
-        public int id;
+        public int id { get; set; }
 
         [Display(Name = "توضیح")]
         [Required(ErrorMessage = "فیلد الزامی")]

@@ -5,7 +5,7 @@ namespace sajjadmirzapour.Models
     public class Banner
     {
         [Key]
-        public int id;
+        public int id { get; set; }
 
         [Display(Name = "تصویر یک")]
         [Required(ErrorMessage ="وارد کردن الزامی است")]

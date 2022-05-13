@@ -14,6 +14,10 @@ namespace sajjadmirzapour
 
         }
         public DbSet<News> News { get; set; }
+        public DbSet<ProNews> ProNews { get; set; }
+        public DbSet<ShortNews> ShortNews { get; set; }
+        public DbSet<ShortTextNews> ShortTextNews { get; set; }
+
 
 
 

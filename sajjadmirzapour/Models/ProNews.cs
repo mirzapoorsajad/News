@@ -6,7 +6,7 @@ namespace sajjadmirzapour.Models
     public class ProNews
     {
         [Key]
-        public int id;
+        public int id { get; set; }
 
         [Display(Name = "نویسنده")]
         [Required(ErrorMessage = "فیلد الزامی")]
